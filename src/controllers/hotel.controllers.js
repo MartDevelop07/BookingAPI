@@ -1,7 +1,7 @@
 const catchError = require('../utils/catchError');
 const Hotel = require('../models/Hotel');
 const City = require('../models/City');
-const { Op } = require('sequelize'); //para operador like en sequelize
+const { Op } = require('sequelize'); //para operador ilike en sequelize
 const Reviews = require('../models/Reviews');
 const Images = require('../models/Images');
 
